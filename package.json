@@ -1,0 +1,35 @@
+{
+  "name": "african-tech-companies",
+  "version": "1.0.0",
+  "description": "A List of Tech companies in Africa cum their Founder(s) cum industry they are in.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcnoble1/African-Tech-Companies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mcnoble1/African-Tech-Companies/issues"
+  },
+  "homepage": "https://github.com/Mcnoble1/African-Tech-Companies#readme",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "jest": "^27.3.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ]
+}
